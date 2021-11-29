@@ -17,7 +17,7 @@
 	<header>
 		<div class="flex">
 			<c:if test="${empty login_id }">
-				<a href="../member/member_login.jsp">로그인 </a>|
+				<a href="../member/member_login.jsp">로그인1 </a>|
 				<a href="../member/member_join.jsp"> 회원가입 </a>|
 			</c:if>
 			<c:if test="${not empty login_id }">
